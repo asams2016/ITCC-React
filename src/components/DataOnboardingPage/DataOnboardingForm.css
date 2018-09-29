@@ -1,0 +1,31 @@
+/* setting the default of the conditionally-displayed content
+   to hidden: */
+#conditional {
+	display: none;
+}
+/* if the #postageyes element is checked then the general sibling of
+   that element, with the id of 'conditional', will be shown: */
+#business-exists-yes:checked ~ #conditional {
+	display: block;
+}
+
+.question {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type="radio"] {
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+button[type="submit"] {
+	background-color: #6f05a8;
+	color: white;
+}
+
+.wrapper {
+	min-width: 100px;
+	overflow: hidden;
+	display: inline-block;
+}

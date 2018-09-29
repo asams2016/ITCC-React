@@ -1,0 +1,12 @@
+.title {
+	position: relative;
+}
+
+.centered-title {
+	font-size: 10vw;
+	position: absolute;
+	top: 45%;
+	left: 0;
+	width: 100%;
+	color: white;
+}
